@@ -4,7 +4,7 @@
 
 Name:       %{?scl_prefix}nodejs-block-stream
 Version:    0.0.7
-Release:    2%{?dist}
+Release:    3%{?dist}
 Summary:    A stream of blocks
 License:    BSD
 Group:      Development/Libraries
@@ -47,6 +47,9 @@ rm -rf %{buildroot}
 %doc README.md LICENCE
 
 %changelog
+* Sun Feb 14 2016 Zuzana Svetlikova <zsvetlik@redhat.com> - 0.0.7-3
+- rebuilt
+
 * Thu Oct 17 2013 Tomas Hrcka <thrcka@redhat.com> - 0.0.7-2
 - replace provides and requires with macro
 
