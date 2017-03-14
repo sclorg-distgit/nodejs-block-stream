@@ -7,9 +7,9 @@
 
 Name:       %{?scl_prefix}nodejs-block-stream
 Version:    0.0.8
-Release:    2%{?dist}
+Release:    3%{?dist}
 Summary:    A stream of blocks
-License:    BSD
+License:    ISC
 URL:        https://github.com/isaacs/block-stream
 Source0:    http://registry.npmjs.org/block-stream/-/block-stream-%{version}.tgz
 BuildArch:  noarch
@@ -48,6 +48,9 @@ tap test/
 %doc README.md LICENCE
 
 %changelog
+* Fri Mar 10 2017 Zuzana Svetlikova <zsvetlik@redhat.com> - 0.0.8-3
+- Correct license
+
 * Mon Jan 16 2017 Zuzana Svetlikova <zsvetlik@redhat.com> - 0.0.8-2
 - Clean up
 
